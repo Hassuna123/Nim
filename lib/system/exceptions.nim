@@ -150,7 +150,7 @@ type
   AccessViolationError* {.deprecated: "See corresponding Defect".} = AccessViolationDefect
   AssertionError* {.deprecated: "See corresponding Defect".} = AssertionDefect
   OutOfMemError* {.deprecated: "See corresponding Defect".} = OutOfMemDefect
-  IndexError* {.deprecated: "See corresponding Defect".} = IndexDefect
+  IndexError * {.deprecated: "See corresponding Defect".} = IndexDefect
 
   FieldError* {.deprecated: "See corresponding Defect".} = FieldDefect
   RangeError* {.deprecated: "See corresponding Defect".} = RangeDefect
